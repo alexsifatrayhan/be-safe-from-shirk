@@ -23,6 +23,20 @@
         .flag-list { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; }
         .flag-list li { background: #334155; padding: 5px 15px; border-radius: 20px; font-size: 0.9rem; }
         .warning-box { border: 1px dashed var(--blue); padding: 15px; margin-bottom: 20px; background: rgba(56, 189, 248, 0.05); }
+        .profile-container {
+    display: flex;
+    justify-content: center; /* Horizontally center karne ke liye */
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile-img {
+    width: 150px;             /* Photo ka size chota karne ke liye */
+    height: 150px;            /* Height-Width same rakhein kyunki photo 1:1 hai */
+    border-radius: 50%;       /* Isse photo round ho jayegi */
+    object-fit: cover;        /* Photo stretch nahi hogi */
+    border: 2px solid #ccc;   /* Optional: halka sa border look ke liye */
+        }
     </style>
 </head>
 <body>
@@ -33,7 +47,10 @@
          <div class="warning-box">
         <strong>Muslims have to avoid those songs strictly. We'll add new songs regularly related with Shirk & Kufr to protect your Iman. It will be a pleasure to do something to protect our Iman.</strong></br><i>Collected and Created by</i> <a href="https://t.me/sr7mods">𝐒𝐑𝟕 𝐌𝐨𝐝𝐬</a>
     </div>
-
+<div class="profile-container">
+    <img src="profile.png" alt="My Profile Picture" class="profile-img">
+</div>
+        
     </header>
 
     <div class="section-title">Hindi, Urdu & Punjabi Songs</div>
